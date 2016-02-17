@@ -114,6 +114,7 @@ function keyDownHandler(key){
 		init();
 		isps=false;
 	}
+	draw();
 }
 
 document.addEventListener("keydown",keyDownHandler,false);
